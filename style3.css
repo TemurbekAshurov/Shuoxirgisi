@@ -1,0 +1,503 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow: scroll;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.nik{
+  background-image: url(./img/X.jpg );
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.X{
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+}
+
+
+
+.bg-war{
+  background-color: gray;
+}
+.icon{
+  color: #FAF9FF;
+  width: 45%;
+  height: 45%;
+}
+
+
+.slec1 {
+
+  background-color: rgba(0, 0, 0, 0.102);
+  background-position: center;
+  background-size: cover;
+}
+
+.slec2 {
+  background-color: #FAF9FF;
+  padding: 50px 0;
+}
+.slec2 i {
+  font-size: 40px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slec4 {
+  background-color: #FAF9FF;
+  padding: 50px 0;
+}
+.slec4 .hovcha {
+  padding: 0 20px;
+  transition-duration: 1s;
+  border-radius: 5px;
+}
+.slec4 .hovcha button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: 3px solid orange;
+  background-color: transparent;
+  font-size: 20px;
+  transition-duration: .5s;
+}
+.slec4 .hovcha {
+  background-color: rgba(1, 27, 11, 0.31);
+  color: white;
+}
+
+.slec5 .col-12 {
+  padding: 30px 0;
+}
+.slec5 .hovcha2 {
+  transition-duration: 1s;
+}
+.cobra{
+ font-size: 30px;
+}
+.custom1{
+height: 400px;
+background-image: url(./img/Appzing.png);
+  background-position: center;
+  background-size: cover;
+  
+}
+.custom2{
+  height: 400px;
+background-image: url(./img/Buildcon.png);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid gray;
+  }
+  .custom3{
+    height: 400px;
+background-image: url(./img/Coffee.png);
+      background-position: center;
+      background-size: cover;
+      border: 3px solid gray;
+    }
+    .custom4{
+      height: 400px;
+background-image: url(./img/Developer.png);
+        background-position: center;
+        background-size: cover;
+        border: 3px solid gray;
+      }
+      .custom5{
+        height: 400px;
+          background-image: url(./img/Logo1.png);
+          background-position: center;
+          background-size: cover;
+          border: 3px solid gray;
+        }
+        .custom6{
+          height: 400px;
+       background-image: url(./img/Gora.png);
+            background-position: center;
+            background-size: cover;
+            border: 3px solid gray;
+          }
+          .custom7{
+            height: 400px;
+            background-image: url(./img/Priroda2.png);
+              background-position: center;
+              background-size: cover;
+              border: 3px solid gray;
+            }
+            .custom8{
+              height: 400px;
+background-image: url(./img/MY\ SITE.png);
+                background-position: center;
+                background-size: cover;
+                border: 3px solid gray;
+              }
+              .custom9{
+                height: 400px;
+                 background-image: url(./img/React2.png);
+                  background-position: center;
+                  background-size: cover;
+                  border: 3px solid gray;
+                }
+                .custom10{
+                  height: 400px;
+                    background-image: url(./img/React3.png);
+                    background-position: center;
+                    background-size: cover;
+                    border: 3px solid gray;
+                  }
+                  .custom11{
+                    height: 400px;
+                     background-image: url(./img/Our\ tours1.png);
+                      background-position: center;
+                      background-size: cover;
+                      border: 3px solid gray;
+                    }
+                    .custom12{
+                      height: 400px;
+                       background-image: url(./img/MY\ SITE.png);
+                        background-position: center;
+                        background-size: cover;
+                        border: 3px solid gray;
+                      }
+                      .custom13{
+                        height: 400px;
+                         background-image: url(./img/scrool\ 1.png);
+                          background-position: center;
+                          background-size: cover;
+                          border: 3px solid gray;
+                        }
+                        .custom14{
+                          height: 400px;
+                            background-image: url(./img/My\ food.png);
+                            background-position: center;
+                            background-size: cover;
+                            border: 3px solid gray;
+                          }
+                          .custom15{
+                            height: 400px;
+                              background-image: url(./img/Shpang.png);
+                              background-position: center;
+                              background-size: cover;
+                              border: 3px solid gray;
+                              
+                            }
+
+                            .foiz{
+                              width: 100%;
+                              height: 10px;
+                              background-color: aliceblue;
+                            }
+
+                             .span1 {
+                              width: 100%;
+                              
+                              background-color: brown;
+                              border: 5px solid brown;
+                            }
+
+                            .rght{
+                              text-align: left;
+                              font-size: 20px;
+                              font-weight: 500;
+                            }
+
+                            .lght{
+                              text-align: right;
+                            }
+ 
+
+                            .web line{
+                              width: 100%;
+                              height: 10px;
+                              background-color: blue;
+                              margin-bottom: 10px;
+                              border-radius: 10px;
+                              }
+                               
+                              .web .lineF{
+                                  width: 100%;
+                                  color: rgb(92, 92, 92);
+                              }
+                              .f90 .textbox {
+                                  padding-left: 90%;
+                                  
+                              }
+                              .f90 .lineF {
+                                  width: 90%;
+                                  height: 10px;
+                                  background-color: gray;
+                              }
+                              .f70 .textbox {
+                                  padding-left: 60%;
+                              }
+                              .f70 .lineF {
+                                  width: 70%;
+                                  height: 10px;
+                                  background-color: gray;
+                              }
+                              .f60 .textbox {
+                                  padding-left: 45%;
+                              }
+                              .f60 .lineF {
+                                  width: 60%;
+                                  height: 10px;
+                                  background-color: gray;
+                              }
+                              .f80 .textbox {
+                                  padding-left: 90%;
+                              }
+                              .f80 .lineF {
+                                  width: 100%;
+                                  height: 10px;
+                                  background-color: gray;
+                              }
+
+                              .cont {
+                                
+                                background-size: cover;
+                                background-position: center;
+                              }
+
+                              .cont form{
+                                border-radius: 10px;
+                              }
+                              .koproq{
+                                text-decoration: none;
+                              }
+                            
+
+             @media (min-width:500px) and (max-width:768px) {
+              .custom1{
+                height: 200px;
+                 
+                  background-position: center;
+                  background-size: cover;
+                }
+                .custom2{
+                  height: 200px;
+                
+                    background-position: center;
+                    background-size: cover;
+                  }
+                  .custom3{
+                    height: 200px;
+                
+                      background-position: center;
+                      background-size: cover;
+                    }
+                    .custom4{
+                      height: 200px;
+                
+                        background-position: center;
+                        background-size: cover;
+                      }
+                      .custom5{
+                        height: 200px;
+                          
+                          background-position: center;
+                          background-size: cover;
+                        }
+                        .custom6{
+                          height: 200px;
+                       
+                            background-position: center;
+                            background-size: cover;
+                          }
+                          .custom7{
+                            height: 200px;
+                            
+                              background-position: center;
+                              background-size: cover;
+                            }
+                            .custom8{
+                              height: 200px;
+                
+                                background-position: center;
+                                background-size: cover;
+                              }
+                              .custom9{
+                                height: 200px;
+                                  
+                                  background-position: center;
+                                  background-size: cover;
+                                }
+                                .custom10{
+                                  height: 200px;
+                                    
+                                    background-position: center;
+                                    background-size: cover;
+                                  }
+                                  .custom11{
+                                    height: 200px;
+                                   
+                                      background-position: center;
+                                      background-size: cover;
+                                    }
+                                    .custom12{
+                                      height: 200px;
+                                       
+                                        background-position: center;
+                                        background-size: cover;
+                                      }
+                                      .custom13{
+                                        height: 200px;
+                                         
+                                          background-position: center;
+                                          background-size: cover;
+                                        }
+                                        .custom14{
+                                          height: 200px;
+                                            
+                                            background-position: center;
+                                            background-size: cover;
+                                          }
+                                          .custom15{
+                                            height: 200px;
+                                             
+                                              background-position: center;
+                                              background-size: cover;
+                                              
+                                            }
+                 
+             }   
+             
+             @media (max-width:500px) {
+              .custom1{
+                height: 200px;
+                 
+                  background-position: center;
+                  background-size: cover;
+                }
+                .custom2{
+                  height: 200px;
+                
+                    background-position: center;
+                    background-size: cover;
+                  }
+                  .custom3{
+                    height: 200px;
+                
+                      background-position: center;
+                      background-size: cover;
+                    }
+                    .custom4{
+                      height: 200px;
+                
+                        background-position: center;
+                        background-size: cover;
+                      }
+                      .custom5{
+                        height: 200px;
+                          
+                          background-position: center;
+                          background-size: cover;
+                        }
+                        .custom6{
+                          height: 200px;
+                       
+                            background-position: center;
+                            background-size: cover;
+                          }
+                          .custom7{
+                            height: 200px;
+                            
+                              background-position: center;
+                              background-size: cover;
+                            }
+                            .custom8{
+                              height: 200px;
+                
+                                background-position: center;
+                                background-size: cover;
+                              }
+                              .custom9{
+                                height: 200px;
+                                  
+                                  background-position: center;
+                                  background-size: cover;
+                                }
+                                .custom10{
+                                  height: 200px;
+                                    
+                                    background-position: center;
+                                    background-size: cover;
+                                  }
+                                  .custom11{
+                                    height: 100px;
+                                      
+                                      background-position: center;
+                                      background-size: cover;
+                                    }
+                                    .custom12{
+                                      height: 200px;
+                                       
+                                        background-position: center;
+                                        background-size: cover;
+                                      }
+                                      .custom13{
+                                        height: 200px;
+                                         
+                                          background-position: center;
+                                          background-size: cover;
+                                        }
+                                        .custom14{
+                                          height: 200px;
+                                            
+                                            background-position: center;
+                                            background-size: cover;
+                                          }
+                                          .custom15{
+                                            height: 200px;
+                                             
+                                              background-position: center;
+                                              background-size: cover;
+                                              
+                                            }
+              .tel{
+                width: 100%;
+                
+              }
+              .oxiri{
+                padding: 10px;
+              }
+              .gemi{
+                width: 100%;
+                background-color: gray;
+              }
+              .businses{
+                position: relative;
+                top: 50px;
+              
+              }
+              .gray-800{
+                color: gray;
+                font-weight: 700;
+              }
+              .btn-gray{
+                background-color: gray;
+              }
+             }
+
+
+             
+            
+                    
+
+.slec5 .hovcha2 {
+  background-color: orangered;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
